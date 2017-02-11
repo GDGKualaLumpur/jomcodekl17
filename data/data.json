@@ -1,0 +1,116 @@
+{
+    "general": {
+        "introduction": "Come join us and meet the Googlers from our APAC Developers Relations Team at JomCode Kuala Lumpur 2017! \n\n You will get a first-hand experience listening to them speaking on the latest updates and trends on various topics including Machine Learning, Firebase, Cloud, Material Design, Android and much more!\n\nThis is a one-time event that you SHOULD NOT miss!!!\n\nWhat are you waiting for? JOM!!! Sign up NOW! Seats are VERY LIMITED!",
+        "datetime": "Mon 27 Feb 2017, 6:00PM",
+        "ticket": "https://jomcodekl17.peatix.com",
+        "ticket_soldout": false
+    },
+    "navigation": [{
+        "title": "Home",
+        "permalink": "home"
+    },{
+        "title": "Agenda",
+        "permalink": "agenda"
+    },{
+        "title": "Speakers",
+        "permalink": "speakers"
+    },{
+        "title": "Community Guidelines",
+        "permalink": "communityguidelines"
+    }],
+    "location": {
+        "address": "Google Malaysia, Axiata Tower (Quill 7), 9, Jalan Stesen Sentral 5, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "mapCenter": {
+            "latitude": 3.1339214,
+            "longitude": 101.6847599,
+            "zoom": 16
+        },
+        "pointer": {
+            "latitude": 3.1339214,
+            "longitude": 101.6847599
+        }
+    },
+    "agenda": {
+        "dateReadable": "Monday, 27 February 2017",
+        "agenda": [{
+            "startTime": "6:00",
+            "AmPm": "PM",
+            "title": "Registration & Dinner",
+            "speaker": ""
+        },{
+            "startTime": "6:30",
+            "AmPm": "PM",
+            "title": "Opening Message",
+            "speaker": ""
+        },{
+            "startTime": "6:45",
+            "AmPm": "PM",
+            "title": "Jumpstarting Machine Learning & Tensorflow",
+            "speaker": "Soonson Kwon"
+        },{
+            "startTime": "7:15",
+            "AmPm": "PM",
+            "title": "Say Hello Tango and Daydream!",
+            "speaker": "Sami Kizilbash"
+        },{
+            "startTime": "7:45",
+            "AmPm": "PM",
+            "title": "Build, Grow and Earn with Firebase and Cloud for Mobile Apps",
+            "speaker": "Manikanta Krishnamurthy"
+        },{
+            "startTime": "8:15",
+            "AmPm": "PM",
+            "title": "Designing Scalable Architecture with Cloud",
+            "speaker": "Junho Choi"
+        },{
+            "startTime": "8:45",
+            "AmPm": "PM",
+            "title": "Women Tech Makers Panel Discussion",
+            "speaker": "Nazlina Quadir"
+        },{
+            "startTime": "9:15",
+            "AmPm": "PM",
+            "title": "Closing",
+            "speaker": ""
+        }]
+    },
+    "speakers": [{
+        "name": "Soonson Kwon",
+        "position": "Head of APAC Ecosystem, Developer Relation, Google",
+        "photoUrl": "../images/people/soonson.jpg"
+    },{
+        "name": "Sami Kizilbash",
+        "position": "Developer Relations, Google",
+        "photoUrl": "../images/people/sami.jpg"
+    },{
+        "name": "Manikanta Krishnamurthy",
+        "position": "Developer Relations Community Manager, Google",
+        "photoUrl": "../images/people/manikanta.jpg"
+    },{
+        "name": "Junho Choi",
+        "position": "",
+        "photoUrl": "../images/people/junho.jpg"
+    },{
+        "name": "Nazlina Quadir",
+        "position": "Women Techmakers Kuala Lumpur",
+        "photoUrl": "../images/people/naz.jpg"
+    }],
+    "partners": [{
+        "title": "Organized by",
+        "partner": [{
+            "name": "GDG Kuala Lumpur",
+            "url": "https://www.facebook.com/GDGKualaLumpur/",
+            "logoUrl": "../images/partner/gdgkl.png",
+            "logoWidth": 340
+        }]
+    },{
+        "title": "Made possible with",
+        "partner": [{
+            "name": "Google",
+            "url": "https://www.google.com",
+            "logoUrl": "../images/partner/google.png",
+            "logoWidth": 180
+        }]        
+    }],
+    "footer": "Henry"
+}

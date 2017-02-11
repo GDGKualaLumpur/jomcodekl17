@@ -4,11 +4,13 @@
   "fragments": [
     "src/gdg-home.html",
     "src/gdg-agenda.html",
+    "src/gdg-spakers.html",
     "src/gdg-communityguidelines.html"
   ],
   "sourceGlobs": [
     "src/**/*",
     "images/**/*",
+    "data/**/*",
     "bower.json"
   ],
   "includeDependencies": [
