@@ -118,6 +118,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         --paper-tabs-selection-bar-color: var(--default-primary-color);
       }
       paper-tab a{
+        padding: 0 8px;
         font-weight: 400;
         font-size: 0.97em;        
         color: var(--secondary-text-color);
@@ -149,6 +150,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       .paper-button-link{
         text-decoration: none;
         color: var(--text-primary-color);
+      }
+      .link-mobile{
+        display: none;
       }
       @media screen and (max-width: 860px){
         .header-flex{
@@ -187,6 +191,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         footer span{
           margin: 0 24px;
         }
+        .link{
+          display: none;
+        }
+        .link-mobile{
+          display: flex;
+        }
       }
     </style>
 
@@ -213,16 +223,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </app-toolbar>
           <div class="header-flex"></div>
           <div class="header-nav">
-            <paper-tabs noink="false" sticky selected="[[page]]" attr-for-selected="name" > 
+
+            <paper-tabs class="link" noink="false" selected="[[page]]" attr-for-selected="name" > 
               <template is="dom-repeat" items="[[app.navigation]]">
                 <paper-tab link name="{{item.permalink}}">
                   <a rel="noopener" href="/{{item.permalink}}" class="link" tabindex="-1">{{item.title}}</a>
                 </paper-tab>                                 
               </template>
-            </paper-tabs>        
+            </paper-tabs>
+
+            <paper-tabs class="link-mobile" noink="false" selected="[[page]]" attr-for-selected="name" > 
+              <template is="dom-repeat" items="[[app.navigation]]">
+                <paper-tab link name="{{item.permalink}}">
+                  <a rel="noopener" href="/{{item.permalink}}" class="link-mobile" tabindex="-1">{{item.shortTitle}}</a>
+                </paper-tab>                                 
+              </template>
+            </paper-tabs>   
+
             <template is="dom-if" if="{{!app.general.ticket_soldout}}">
               <a target="_blank" class="paper-button-link" href="{{app.general.ticket}}" tabindex="-1"><paper-button>Get Ticket</paper-button></a>
             </template>
+            <template is="dom-if" if="{{app.general.ticket_soldout}}">
+              <a target="_blank" class="paper-button-link" href="{{app.general.ticket}}" tabindex="-1"><paper-button style="background: #D32F2F; color: #fff">Sold Out</paper-button></a>
+            </template>              
           </div>      
         </app-header>
 

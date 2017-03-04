@@ -1,21 +1,25 @@
 {
     "general": {
-        "introduction": "Come join us and meet the Googlers from our APAC Developers Relations Team at JomCode Kuala Lumpur 2017! \n\n You will get a first-hand experience listening to them speaking on the latest updates and trends on various topics including Machine Learning, Firebase, Cloud, Material Design, Android and much more!\n\nThis is a one-time event that you SHOULD NOT miss!!!\n\nWhat are you waiting for? JOM!!! Sign up NOW! Seats are VERY LIMITED!",
+        "introduction": "Come join us and meet the Googlers from our APAC Developers Relations Team at JomCode Kuala Lumpur 2017! \n\n You will get a first-hand experience listening to them speaking on the latest updates and trends on various topics including Machine Learning, Firebase, Cloud, Material Design, Android and much more!\n\nThis is a one-time event that you SHOULD NOT miss!!!",
         "datetime": "Mon 27 Feb 2017, 6:00PM",
         "ticket": "https://jomcodekl17.peatix.com",
-        "ticket_soldout": false
+        "ticket_soldout": true
     },
     "navigation": [{
         "title": "Home",
+        "shortTitle": "Home",
         "permalink": "home"
     },{
         "title": "Agenda",
+        "shortTitle": "Agenda",
         "permalink": "agenda"
     },{
         "title": "Speakers",
+        "shortTitle": "Speakers",
         "permalink": "speakers"
     },{
         "title": "Community Guidelines",
+        "shortTitle": "CoC",
         "permalink": "communityguidelines"
     }],
     "location": {
