@@ -14,14 +14,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta charset="utf-8">
     <meta name="generator" content="Polymer Starter Kit">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
     <meta name="theme-color" content="#3F51B5">
+    <base href="/jomcodekl17/">
 
     <title>JomCode Kuala Lumpur 2017</title>
     <meta name="description" content="Come join us and meet the Googlers from our APAC Developers Relations Team at JomCode Kuala Lumpur 2017!">
     <meta name="author" content="Henry Lim, GDG Kuala Lumpur">
-    <link rel="canonical" href="https://jomcodekl17.firebaseapp.com/">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="canonical" href="https://events.gdgkl.org/jomcodekl17/">
+    <link rel="manifest" href="manifest.json">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="JomCode Kuala Lumpur 2017">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -31,9 +32,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="twitter:site" content="@GDGKL">
     <meta name="twitter:title" content="JomCode Kuala Lumpur 2017">
     <meta name="twitter:description" content="Come join us and meet the Googlers from our APAC Developers Relations Team at JomCode Kuala Lumpur 2017!">
-    <meta name="twitter:image:src" content="https://jomcodekl17.firebaseapp.com/images/social/social.jpg">
+    <meta name="twitter:image:src" content="https://events.gdgkl.org/jomcodekl17/images/social/social.jpg">
     <meta property="og:title" content="JomCode Kuala Lumpur 2017">
-    <meta property="og:image" content="https://jomcodekl17.firebaseapp.com/images/social/social.jpg">
+    <meta property="og:image" content="https://events.gdgkl.org/jomcodekl17/images/social/social.jpg">
     <meta property="og:site_name" content="Come join us and meet the Googlers from our APAC Developers Relations Team at JomCode Kuala Lumpur 2017!">
     <meta property="og:description" content="Come join us and meet the Googlers from our APAC Developers Relations Team at JomCode Kuala Lumpur 2017!">
 
@@ -42,6 +43,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       window.Polymer = {
         dom: 'shadow',
         lazyRegister: true,
+        rootPath: '/jomcodekl17/'
       };
 
       // Load webcomponentsjs polyfill if browser does not support native
@@ -68,7 +70,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         if (!webComponentsSupported) {
           var script = document.createElement('script');
           script.async = true;
-          script.src = '/bower_components/webcomponentsjs/webcomponents-lite.min.js';
+          script.src = 'bower_components/webcomponentsjs/webcomponents-lite.min.js';
           script.onload = onload;
           document.head.appendChild(script);
         } else {
@@ -86,7 +88,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       
     </script>
 
-    <link rel="import" href="/src/gdg-app.html">
+    <link rel="import" href="src/gdg-app.html">
 
     <style>
       body {

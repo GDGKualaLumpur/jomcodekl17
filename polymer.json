@@ -4,17 +4,28 @@
   "fragments": [
     "src/gdg-home.html",
     "src/gdg-agenda.html",
-    "src/gdg-spakers.html",
+    "src/gdg-speakers.html",
     "src/gdg-communityguidelines.html"
   ],
-  "sourceGlobs": [
+  "sources": [
     "src/**/*",
     "images/**/*",
     "data/**/*",
     "bower.json"
   ],
-  "includeDependencies": [
+  "extraDependencies": [
     "manifest.json",
     "bower_components/webcomponentsjs/webcomponents-lite.min.js"
-  ]
+  ],
+  "builds": [{
+    "name": "jomcodekl17",
+    "bundle": false,
+    "js": {"minify": true, "compile": true},
+    "css": {"minify": true},
+    "html": {"minify": true},
+    "addPushManifest": true,
+    "insertPrefetchLinks": true,
+    "addServiceWorker": false,
+    "basePath": true
+  }]
 }

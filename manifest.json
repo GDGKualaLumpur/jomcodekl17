@@ -1,7 +1,7 @@
 {
   "name": "JomCode Kuala Lumpur 2017",
   "short_name": "JomCode KL 2017",
-  "start_url": "/?homescreen=1",
+  "start_url": "/jomcodekl17/",
   "display": "standalone",
   "theme_color": "#3F51B5",
   "background_color": "#3F51B5",

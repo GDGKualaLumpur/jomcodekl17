@@ -81,30 +81,30 @@
     "speakers": [{
         "name": "Soonson Kwon",
         "position": "Head of APAC Ecosystem, Developer Relation, Google",
-        "photoUrl": "../images/people/soonson.jpg"
+        "photoUrl": "images/people/soonson.jpg"
     },{
         "name": "Sami Kizilbash",
         "position": "Developer Relations, Google",
-        "photoUrl": "../images/people/sami.jpg"
+        "photoUrl": "images/people/sami.jpg"
     },{
         "name": "Manikanta Krishnamurthy",
         "position": "Developer Relations Community Manager, Google",
-        "photoUrl": "../images/people/manikanta.jpg"
+        "photoUrl": "images/people/manikanta.jpg"
     },{
         "name": "Junho Choi",
         "position": "",
-        "photoUrl": "../images/people/junho.jpg"
+        "photoUrl": "images/people/junho.jpg"
     },{
         "name": "Nazlina Quadir",
         "position": "Women Techmakers Kuala Lumpur",
-        "photoUrl": "../images/people/naz.jpg"
+        "photoUrl": "images/people/naz.jpg"
     }],
     "partners": [{
         "title": "Organized by",
         "partner": [{
             "name": "GDG Kuala Lumpur",
             "url": "https://www.facebook.com/GDGKualaLumpur/",
-            "logoUrl": "../images/partner/gdgkl.png",
+            "logoUrl": "images/partner/gdgkl.png",
             "logoWidth": 340
         }]
     },{
@@ -112,7 +112,7 @@
         "partner": [{
             "name": "Google",
             "url": "https://www.google.com",
-            "logoUrl": "../images/partner/google.png",
+            "logoUrl": "images/partner/google.png",
             "logoWidth": 180
         }]        
     }],
